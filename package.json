@@ -1,0 +1,21 @@
+{
+  "name": "osiris-bookmark-server",
+  "version": "1.0.0",
+  "description": "API for bookmark",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "authServer": "nodemon authServer.js"
+  },
+  "author": "kevin",
+  "license": "ISC",
+  "dependencies": {    
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.10",
+    "dotenv": "^10.0.0"
+  }
+}

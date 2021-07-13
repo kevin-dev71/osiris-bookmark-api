@@ -1,0 +1,27 @@
+GET http://localhost:5000/bookmarks
+
+###
+
+GET http://localhost:5000/bookmarks/60ecddeb811e153674ff3200
+
+
+###
+POST http://localhost:5000/bookmarks
+Content-Type: application/json
+
+{
+  "name": "Instagram link",
+  "link": "www.instagram.com",
+  "tags": "youtube, video, internet, pura vida mae"
+}
+
+###
+DELETE http://localhost:5000/bookmarks/60ece151bda5383658d37f65
+
+###
+PATCH http://localhost:5000/bookmarks/60ece151bda5383658d37f65
+Content-Type: application/json
+
+{
+  "name" : "Instagram New"
+}
